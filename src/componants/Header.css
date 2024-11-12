@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.title {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xxx-large;
+}
+
+.pageSwitch {
+    position: absolute;
+    right: 10px
+}
