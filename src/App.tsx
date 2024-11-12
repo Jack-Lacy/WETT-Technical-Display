@@ -1,26 +1,15 @@
 import React, {useState} from 'react';
 import './App.css';
-import Header from "./componants/Header";
-import Display from "./componants/Display";
+import {Route, Router, Routes} from "react-router-dom";
+import TechEx from "./pages/TechEx";
+import DAQ from "./pages/DAQ";
 
 function App() {
-    let [model, setPath] = useState('full');
-
-    const changeModel = (p : string) => {
-        setPath(p)
-        console.log(model)
-    }
-
   return (
-      <>
-          <Header></Header>
-          <div className="buttons">
-              <button onClick={() => changeModel('full')}> Bog </button>
-              <button onClick={() => changeModel('j')}> J </button>
-              <button onClick={() => changeModel('j-coloured')}> J Coloured </button>
-          </div>
-          <Display model={model}></Display>
-      </>
+          <Routes>
+              <Route path="/" element={<TechEx/>} />
+              <Route path="/DAQ" element={<DAQ/>} />
+          </Routes>
   );
 }
 

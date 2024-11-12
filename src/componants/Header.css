@@ -16,7 +16,17 @@
     font-size: xxx-large;
 }
 
-.pageSwitch {
+.navButtons {
     position: absolute;
     right: 10px
+}
+
+.navButtons button {
+    background-color: #4bb8ff;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.95);
+    background-color: darkgray;
 }
