@@ -10,7 +10,7 @@ export default function Header() {
     }
 
     const switchToTechEx = () => {
-        navigate('/');
+        navigate('/WETT-Technical-Display');
     }
 
     return (
