@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
-import {Route, Router, Routes} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import TechEx from "./pages/TechEx";
 import DAQ from "./pages/DAQ";
 
