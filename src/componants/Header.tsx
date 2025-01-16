@@ -19,8 +19,10 @@ export default function Header() {
 
     return (
         <div className="header">
-            <img className="logo" src="/WETT-Technical-Display/resources/WETTlogo.png" alt={"logo"}/>
-            <h1 className="title">WETT</h1>
+            <div className="title-container">
+                <img className="logo" src="/WETT-Technical-Display/resources/WETTlogo.png" alt={"logo"}/>
+                <h1 className="title">WETT</h1>
+            </div>
             <div className="navButtons">
                 <button className="pageSwitch" onClick={() => switchToBog()}>Toboggan</button>
                 <button className="pageSwitch" onClick={() => switchToCon()}>Concrete</button>

@@ -1,7 +1,12 @@
 .header {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 10px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
 }
 
 .logo {
@@ -17,7 +22,8 @@
 }
 
 .navButtons {
-    position: relative;
+    flex-direction: row;
+    justify-content: center;
 }
 
 @media (min-width: 500px) {
