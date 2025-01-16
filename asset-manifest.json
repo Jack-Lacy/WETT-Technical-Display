@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/WETT-Technical-Display/static/css/main.b2bf4805.css",
-    "main.js": "/WETT-Technical-Display/static/js/main.ff196a65.js",
+    "main.js": "/WETT-Technical-Display/static/js/main.dc8dd24f.js",
     "static/js/453.1267e9a7.chunk.js": "/WETT-Technical-Display/static/js/453.1267e9a7.chunk.js",
     "index.html": "/WETT-Technical-Display/index.html",
     "main.b2bf4805.css.map": "/WETT-Technical-Display/static/css/main.b2bf4805.css.map",
-    "main.ff196a65.js.map": "/WETT-Technical-Display/static/js/main.ff196a65.js.map",
+    "main.dc8dd24f.js.map": "/WETT-Technical-Display/static/js/main.dc8dd24f.js.map",
     "453.1267e9a7.chunk.js.map": "/WETT-Technical-Display/static/js/453.1267e9a7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2bf4805.css",
-    "static/js/main.ff196a65.js"
+    "static/js/main.dc8dd24f.js"
   ]
 }
