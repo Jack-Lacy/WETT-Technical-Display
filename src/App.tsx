@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
 import {Route, Routes} from "react-router-dom";
-import TechEx from "./pages/TechEx";
-import DAQ from "./pages/DAQ";
+import Toboggan from "./pages/Toboggan";
+import Concrete from "./pages/Concrete";
+import Superstructure from "./pages/Superstructure";
 
 function App() {
   return (
           <Routes>
-              <Route path="/WETT-Technical-Display" element={<TechEx/>} />
-              <Route path="/DAQ" element={<DAQ/>} />
+              <Route path="/WETT-Technical-Display" element={<Toboggan/>} />
+              <Route path="/Concrete" element={<Concrete/>} />
+              <Route path="/SuperStructure" element={<Superstructure/>} />
           </Routes>
   );
 }

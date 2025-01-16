@@ -16,10 +16,15 @@
     font-size: xxx-large;
 }
 
-@media max-width
 .navButtons {
-    position: absolute;
-    right: 10px
+    position: relative;
+}
+
+@media (min-width: 500px) {
+    .navButtons {
+        position: absolute !important;
+        right: 10px !important;
+    }
 }
 
 .navButtons button {

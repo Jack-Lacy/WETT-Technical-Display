@@ -1,9 +1,9 @@
 import React, {useState} from "react";
-import './TechEx.css'
+import './Superstructure.css'
 import Display from "../componants/Display";
 import Header from "../componants/Header";
 
-export default function TechEx() {
+export default function Superstructure() {
     let [model, setPath] = useState('full');
 
     const changeModel = (p : string) => {
