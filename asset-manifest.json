@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/WETT-Technical-Display/static/css/main.b2bf4805.css",
-    "main.js": "/WETT-Technical-Display/static/js/main.cd74a914.js",
+    "main.css": "/WETT-Technical-Display/static/css/main.24db4b10.css",
+    "main.js": "/WETT-Technical-Display/static/js/main.26fcdbda.js",
     "static/js/453.1267e9a7.chunk.js": "/WETT-Technical-Display/static/js/453.1267e9a7.chunk.js",
     "index.html": "/WETT-Technical-Display/index.html",
-    "main.b2bf4805.css.map": "/WETT-Technical-Display/static/css/main.b2bf4805.css.map",
-    "main.cd74a914.js.map": "/WETT-Technical-Display/static/js/main.cd74a914.js.map",
+    "main.24db4b10.css.map": "/WETT-Technical-Display/static/css/main.24db4b10.css.map",
+    "main.26fcdbda.js.map": "/WETT-Technical-Display/static/js/main.26fcdbda.js.map",
     "453.1267e9a7.chunk.js.map": "/WETT-Technical-Display/static/js/453.1267e9a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2bf4805.css",
-    "static/js/main.cd74a914.js"
+    "static/css/main.24db4b10.css",
+    "static/js/main.26fcdbda.js"
   ]
 }
