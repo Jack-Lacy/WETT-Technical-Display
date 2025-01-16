@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Jack-Lacy/WETT-Technical-Display/static/css/main.b2bf4805.css",
-    "main.js": "/Jack-Lacy/WETT-Technical-Display/static/js/main.fa7506cd.js",
-    "static/js/453.1267e9a7.chunk.js": "/Jack-Lacy/WETT-Technical-Display/static/js/453.1267e9a7.chunk.js",
-    "index.html": "/Jack-Lacy/WETT-Technical-Display/index.html",
-    "main.b2bf4805.css.map": "/Jack-Lacy/WETT-Technical-Display/static/css/main.b2bf4805.css.map",
-    "main.fa7506cd.js.map": "/Jack-Lacy/WETT-Technical-Display/static/js/main.fa7506cd.js.map",
-    "453.1267e9a7.chunk.js.map": "/Jack-Lacy/WETT-Technical-Display/static/js/453.1267e9a7.chunk.js.map"
+    "main.css": "/WETT-Technical-Display/static/css/main.b2bf4805.css",
+    "main.js": "/WETT-Technical-Display/static/js/main.0c5e4078.js",
+    "static/js/453.1267e9a7.chunk.js": "/WETT-Technical-Display/static/js/453.1267e9a7.chunk.js",
+    "index.html": "/WETT-Technical-Display/index.html",
+    "main.b2bf4805.css.map": "/WETT-Technical-Display/static/css/main.b2bf4805.css.map",
+    "main.0c5e4078.js.map": "/WETT-Technical-Display/static/js/main.0c5e4078.js.map",
+    "453.1267e9a7.chunk.js.map": "/WETT-Technical-Display/static/js/453.1267e9a7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2bf4805.css",
-    "static/js/main.fa7506cd.js"
+    "static/js/main.0c5e4078.js"
   ]
 }
