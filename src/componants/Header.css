@@ -16,6 +16,7 @@
     font-size: xxx-large;
 }
 
+@media max-width
 .navButtons {
     position: absolute;
     right: 10px
