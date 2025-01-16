@@ -9,15 +9,15 @@ type DisplayProps = {
 }
 
 export default function Display(props: DisplayProps) {
-    const [currentModel, setCurrentModel] = useState(<Model path="/resources/final_assembly.glb" />);
+    const [currentModel, setCurrentModel] = useState(<Model path="WETT-Technical-Display//resources/final_assembly.glb" />);
 
     useEffect(() => {
         if (props.model === 'full') {
-            setCurrentModel(<Model path="/resources/final_assembly.glb" />);
+            setCurrentModel(<Model path="WETT-Technical-Display//resources/final_assembly.glb" />);
         } else if (props.model === 'j') {
-            setCurrentModel(<Model path="/resources/jack.glb" />);
+            setCurrentModel(<Model path="WETT-Technical-Display//resources/jack.glb" />);
         } else if (props.model === 'j-coloured') {
-            setCurrentModel(<Model path="/resources/JACKC.GLB" />);
+            setCurrentModel(<Model path="WETT-Technical-Display//resources/JACKC.GLB" />);
         }
     }, [props.model]);
 
