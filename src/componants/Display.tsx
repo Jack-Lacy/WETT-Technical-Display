@@ -23,7 +23,7 @@ export default function Display(props: DisplayProps) {
 
     return (
         <div className="display">
-            <Canvas className="canvas" style={{ height: '90vh' }}>
+            <Canvas className="canvas" style={{ height: '90vh' }} key={props.model}>
                 <ambientLight intensity={0.5} />
                 <directionalLight position={[5, 5, 5]} />
                 {currentModel}
