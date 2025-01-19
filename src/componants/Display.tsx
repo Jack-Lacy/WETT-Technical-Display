@@ -6,6 +6,8 @@ import Model from "./Model";
 
 type DisplayProps = {
     model: string
+    maxDistanceMobile: number
+    maxDistanceComputer: number
 }
 
 export default function Display(props: DisplayProps) {
@@ -43,7 +45,7 @@ export default function Display(props: DisplayProps) {
                 <ambientLight intensity={0.5} />
                 <directionalLight position={[5, 5, 5]} />
                 {currentModel}
-                <OrbitControls minDistance={0.5} maxDistance={window.innerWidth > 500 ? 2 : 10} />
+                <OrbitControls minDistance={0.5} maxDistance={window.innerWidth > 500 ? props.maxDistanceComputer : props.maxDistanceMobile} />
             </Canvas>
         </div>
     );
