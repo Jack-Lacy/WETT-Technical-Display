@@ -4,7 +4,7 @@ import Display from "../componants/Display";
 import Header from "../componants/Header";
 
 export default function Concrete() {
-    let [model, setPath] = useState('full');
+    let [model, setPath] = useState('f1');
 
     const changeModel = (p : string) => {
         setPath(p)
@@ -15,9 +15,12 @@ export default function Concrete() {
         <>
             <Header></Header>
             <div className="buttons">
-                <button onClick={() => changeModel('full')}> Bog </button>
-                <button onClick={() => changeModel('j')}> J </button>
-                <button onClick={() => changeModel('j-coloured')}> J Coloured </button>
+                <button onClick={() => changeModel('f1')}> F1</button>
+                <button onClick={() => changeModel('f2')}> F2</button>
+                <button onClick={() => changeModel('f3')}> F3</button>
+                <button onClick={() => changeModel('f4')}> F4</button>
+                <button onClick={() => changeModel('f5')}> F5</button>
+                <button onClick={() => changeModel('f6')}> F6</button>
             </div>
             <Display model={model}></Display>
         </>
