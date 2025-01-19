@@ -43,7 +43,7 @@ export default function Display(props: DisplayProps) {
                 <ambientLight intensity={0.5} />
                 <directionalLight position={[5, 5, 5]} />
                 {currentModel}
-                <OrbitControls minDistance={1} maxDistance={window.innerWidth > 500 ? 3 : 10} />
+                <OrbitControls minDistance={0.5} maxDistance={window.innerWidth > 500 ? 2 : 10} />
             </Canvas>
         </div>
     );
