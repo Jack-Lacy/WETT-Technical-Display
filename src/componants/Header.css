@@ -36,6 +36,7 @@
 .navButtons button {
     background-color: #4bb8ff;
     color: white;
+    width: auto;
 }
 
 button:active {
