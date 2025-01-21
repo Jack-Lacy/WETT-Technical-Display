@@ -1,0 +1,45 @@
+version: 1
+
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - echo 'Running pre-build commands...'
+    build:
+      commands:
+        - npm install
+        - npm run build
+    postBuild:
+      commands:
+        - echo 'Running post-build commands...'
+
+  artifacts:
+    baseDirectory: build
+    files:
+      - '**/*'
+
+  cache:
+    paths:
+      - node_modules/**/*
+
+# Custom headers (optional, for setting content-type, cache-control, etc.)
+customHeaders:
+  '*.glb':
+    - Key: 'Content-Type'
+      Value: 'model/gltf-binary'
+
+  '*.gltf':
+    - Key: 'Content-Type'
+      Value: 'model/gltf+json'
+
+# Cache Expiration
+cache:
+  paths:
+    - "**/*"
+  expiry:
+    ttl: 3600  # Time-to-live in seconds, adjust as needed
+
+# Webpack configuration (optional)
+frontendBuild:
+  webpack:
+    webpackConfig: webpack.config.js
