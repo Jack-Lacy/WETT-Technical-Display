@@ -5,8 +5,8 @@ import {useNavigate} from "react-router-dom";
 export default function Header() {
     const navigate = useNavigate();
 
-    const switchToSup = () => {
-        navigate('/SuperStructure');
+    const switchToMech = () => {
+        navigate('/Mechanical');
     }
 
     const switchToCon = () => {
@@ -26,7 +26,7 @@ export default function Header() {
             <div className="navButtons">
                 <button className="pageSwitch" onClick={() => switchToBog()}>Toboggan</button>
                 <button className="pageSwitch" onClick={() => switchToCon()}>Concrete</button>
-                <button className="pageSwitch" onClick={() => switchToSup()}>Super Structure</button>
+                <button className="pageSwitch" onClick={() => switchToMech()}>Mechanical</button>
             </div>
         </div>
     )
