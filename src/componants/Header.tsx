@@ -14,13 +14,13 @@ export default function Header() {
     }
 
     const switchToBog = () => {
-        navigate('/WETT-Technical-Display');
+        navigate('/');
     }
 
     return (
         <div className="header">
             <div className="title-container">
-                <img className="logo" src="/WETT-Technical-Display/resources/WETTlogo.png" alt={"logo"}/>
+                <img className="logo" src="/resources/WETTlogo.png" alt={"logo"}/>
                 <h1 className="title">WETT</h1>
             </div>
             <div className="navButtons">
