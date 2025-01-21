@@ -16,25 +16,25 @@ export default function Display(props: DisplayProps) {
     useEffect(() => {
         switch (props.model) {
             case 'full':
-                setCurrentModel(<Model path="/WETT-Technical-Display/resources/final_assembly.glb"/>);
+                setCurrentModel(<Model path="/resources/final_assembly.glb"/>);
                 break;
             case 'f1':
-                setCurrentModel(<Model path="/WETT-Technical-Display/resources/concrete/f1.glb"/>);
+                setCurrentModel(<Model path="/resources/concrete/f1.glb"/>);
                 break;
             case 'f2':
-                setCurrentModel(<Model path="/WETT-Technical-Display/resources/concrete/f2.glb"/>);
+                setCurrentModel(<Model path="/resources/concrete/f2.glb"/>);
                 break;
             case 'f3':
-                setCurrentModel(<Model path="/WETT-Technical-Display/resources/concrete/f3.glb"/>);
+                setCurrentModel(<Model path="/resources/concrete/f3.glb"/>);
                 break;
             case 'f4':
-                setCurrentModel(<Model path="/WETT-Technical-Display/resources/concrete/f4.glb"/>);
+                setCurrentModel(<Model path="/resources/concrete/f4.glb"/>);
                 break;
             case 'f5':
-                setCurrentModel(<Model path="/WETT-Technical-Display/resources/concrete/f5.glb"/>);
+                setCurrentModel(<Model path="/resources/concrete/f5.glb"/>);
                 break;
             case 'f6':
-                setCurrentModel(<Model path="/WETT-Technical-Display/resources/concrete/f6.glb"/>);
+                setCurrentModel(<Model path="/resources/concrete/f6.glb"/>);
                 break;
         }
     }, [props.model]);

@@ -8,7 +8,7 @@ import Superstructure from "./pages/Superstructure";
 function App() {
   return (
           <Routes>
-              <Route path="/WETT-Technical-Display" element={<Toboggan/>} />
+              <Route path="/" element={<Toboggan/>} />
               <Route path="/Concrete" element={<Concrete/>} />
               <Route path="/SuperStructure" element={<Superstructure/>} />
           </Routes>
