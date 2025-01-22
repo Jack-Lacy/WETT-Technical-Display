@@ -7,7 +7,7 @@ export default function Toboggan() {
     return (
         <>
             <Header></Header>
-            <Display model={"full"} maxDistanceComputer={2} minDistanceComputer={0.5} maxDistanceMobile={10} minDistanceMobile={0.5}></Display>
+            <Display model={"full"} maxDistanceComputer={3} minDistanceComputer={1} maxDistanceMobile={10} minDistanceMobile={0.5}></Display>
         </>
     )
 }
