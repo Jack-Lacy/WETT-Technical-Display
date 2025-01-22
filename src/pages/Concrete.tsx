@@ -56,7 +56,6 @@ export default function Concrete() {
                     </>
                     : null
                 }
-
             </div>
             <Display
                 model={model}
