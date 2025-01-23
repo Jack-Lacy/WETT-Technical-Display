@@ -59,6 +59,15 @@ export default function Display(props: DisplayProps) {
             case 'suspension':
                 setCurrentModel(<Model path="/resources/super/independent_assembly.glb"/>);
                 break;
+            case 'brake':
+                setCurrentModel(<Model path="/resources/super/final_brake.glb"/>);
+                break;
+            case 'front-strut':
+                setCurrentModel(<Model path="/resources/super/independent_front_thrust_assem.glb"/>);
+                break;
+            case 'steering':
+                setCurrentModel(<Model path="/resources/super/steering_v1.glb"/>);
+                break;
         }
     }, [props.model]);
 
