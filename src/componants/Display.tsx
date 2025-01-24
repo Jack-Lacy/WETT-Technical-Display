@@ -54,26 +54,26 @@ export default function Display(props: DisplayProps) {
                 setCurrentModel(<Model path="/resources/concrete/b5.glb"/>);
                 break;
             case 'frame':
-                setCurrentModel(<Model path="/resources/super/frame_+_additions.glb"/>);
+                setCurrentModel(<Model path="/resources/mechanical/frame_+_additions.glb"/>);
                 break;
             case 'suspension':
-                setCurrentModel(<Model path="/resources/super/independent_assembly.glb"/>);
+                setCurrentModel(<Model path="/resources/mechanical/independent_assembly.glb"/>);
                 break;
             case 'brake':
-                setCurrentModel(<Model path="/resources/super/final_brake.glb"/>);
+                setCurrentModel(<Model path="/resources/mechanical/final_brake.glb"/>);
                 break;
             case 'front-strut':
-                setCurrentModel(<Model path="/resources/super/independent_front_thrust_assem.glb"/>);
+                setCurrentModel(<Model path="/resources/mechanical/independent_front_thrust_assem.glb"/>);
                 break;
             case 'steering':
-                setCurrentModel(<Model path="/resources/super/steering_v1.glb"/>);
+                setCurrentModel(<Model path="/resources/mechanical/steering_v1.glb"/>);
                 break;
         }
     }, [props.model]);
 
     return (
         <div className="display">
-            <Canvas className="canvas" style={{ height: '85vh' }} key={props.model}>
+            <Canvas className="canvas" style={{ height: '80vh' }} key={props.model}>
                 <ambientLight intensity={0.5} />
                 <directionalLight position={[5, 5, 5]} />
                 {currentModel}
