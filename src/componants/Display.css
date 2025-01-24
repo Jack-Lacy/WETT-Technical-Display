@@ -1,0 +1,12 @@
+.display {
+    display: flex;
+}
+
+.autoRotate {
+    position: absolute;
+    bottom: 0;
+}
+
+.blue {
+    background-color: #b9e2ff;
+}

@@ -14,6 +14,11 @@ type DisplayProps = {
 
 export default function Display(props: DisplayProps) {
     const [currentModel, setCurrentModel] = useState(<Model path="/WETT-Technical-Display/resources/final_assembly.glb" />);
+    const [autoRotate, setAutoRotate] = useState(true);
+
+    function toggleRotate() {
+        setAutoRotate(!autoRotate);
+    }
 
     useEffect(() => {
         switch (props.model) {
@@ -78,10 +83,11 @@ export default function Display(props: DisplayProps) {
                 <directionalLight position={[5, 5, 5]} />
                 {currentModel}
                 <OrbitControls
-                    autoRotate={true}
+                    autoRotate={autoRotate}
                     minDistance={window.innerWidth > 560 ? props.minDistanceComputer : props.minDistanceMobile}
                     maxDistance={window.innerWidth > 560 ? props.maxDistanceComputer : props.maxDistanceMobile} />
             </Canvas>
+            <button className={`autoRotate ${autoRotate ? 'blue' : null}`} onClick={() => toggleRotate()}>{autoRotate ? 'Rotate On' : 'Rotate Off'}</button>
         </div>
     );
 }
